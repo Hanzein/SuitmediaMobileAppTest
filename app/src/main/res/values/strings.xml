@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SuitmediaMobileAppTest</string>
+
+    <!--Ini caption First Activity-->
+    <string name="namehint_first">Name</string>
+    <string name="polindromehint_first">Polindrome</string>
+    <string name="tv_check_first">Check</string>
+    <string name="tv_next_first">Next</string>
+    <string name="tv_check_first_desc">Check Button for check polindrome or not</string>
+    <string name="tv_next_first_desc">Next Button to SecondActivity</string>
+
+    <!--Ini caption Second Activity/Main Activity-->
+    <string name="iv_back_btn_desc">Back Button to back to First Activity</string>
+    <string name="tv_second_screen">Second Screen</string>
+    <string name="tv_welcome">Welcome</string>
+    <string name="tv_Username_second">John Doe</string>
+    <string name="tv_select_username">Selected User Name</string>
+    <string name="btn_choose_user">Choose a user</string>
+    <string name="btn_choose_user_desc">Choose button to go next activity/page</string>
+
+    <!--Ini caption item List User-->
+    <string name="iv_Profile_user">Show Profile user</string>
+    <string name="tv_gmail_user">EMAIL@EMAIL.COM</string>
+    <string name="iv_username_card">Firstname Lastname</string>
+
+    <!--Ini caption Third Activity-->
+    <string name="iv_back_btn_desc_third">Back Button to back to Second Activity</string>
+    <string name="tv_third_screen">Third Screen</string>
+
+</resources>

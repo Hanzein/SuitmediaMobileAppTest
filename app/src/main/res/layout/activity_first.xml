@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_first"
+    tools:context=".first.FirstActivity">
+
+    <LinearLayout
+        android:id="@+id/linearfirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_photo"
+            android:layout_marginTop="50dp"
+            android:padding="50dp"/>
+
+        <EditText
+            android:id="@+id/et_name_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/bg_rounded_first"
+            android:hint="@string/namehint_first"
+            android:textColorHint="@color/inputfirst"
+            android:padding="10dp"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/imageuser" />
+
+            <EditText
+                android:id="@+id/et_palindrom_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:padding="10dp"
+                android:inputType="textPersonName"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/bg_rounded_first"
+                android:hint="@string/polindromehint_first"
+                android:textColorHint="@color/inputfirst"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/imageuser" />
+
+        <Button
+            android:id="@+id/checkButton"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="@string/tv_check_first"
+            android:contentDescription="@string/tv_check_first_desc"
+            android:fontFamily="@font/font1_poppins_regular"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bg_rounded_first_2"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/darkgreen" />
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="@string/tv_next_first"
+            android:contentDescription="@string/tv_next_first_desc"
+            android:fontFamily="@font/font1_poppins_regular"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_rounded_first_2"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/darkgreen" />
+    </LinearLayout>
+</RelativeLayout>

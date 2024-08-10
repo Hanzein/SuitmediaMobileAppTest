@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Card_table_user"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="4dp"
+    android:background="@drawable/bg_rounded_first_2"
+    android:backgroundTint="@color/white"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    android:padding="20dp">
+
+
+    <ImageView
+        android:id="@+id/usericon_profile"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/profil_user"
+        android:contentDescription="@string/iv_Profile_user"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_username_third"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tvuser_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/font1_poppins_regular"
+        android:text="@string/tv_gmail_user"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@id/usericon_profile"
+        app:layout_constraintTop_toBottomOf="@id/tv_username_third"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_username_third"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/font2_poppins_semibold"
+        android:text="@string/iv_username_card"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintStart_toEndOf="@id/usericon_profile"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
